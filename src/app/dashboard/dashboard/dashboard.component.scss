@@ -1,0 +1,38 @@
+.dashboard {
+  margin-top: 150px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  margin: 30px;
+  color: #092b2b;
+}
+
+.t-table {
+  background-color: #092b2b;
+}
+.input-search {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.table-container {
+  margin-bottom: 100px;
+}
+.btn-search {
+  width: 10%;
+  padding: 5px;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+tr:hover {
+  background-color: #1aafaf48;
+}
+
+.username-uppercase {
+  text-transform: uppercase;
+}
